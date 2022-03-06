@@ -1,9 +1,9 @@
-/* Copyright (C) 2020 Yusuf Usta.
+/* Copyright (C) 2020 Yusuf Us.
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-WhatsAsena - Yusuf Usta
+What - DVT
 */
 
 const chalk = require('chalk');
@@ -37,7 +37,7 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
         }
         if (conn.user.jid.startsWith('90')) {
             await conn.sendMessage(conn.user.jid,st, MessageType.text)
-            await conn.sendMessage(conn.user.jid,'*Bu Kodu Kimseyle Paylaşmayın!*', MessageType.text)
+            await conn.sendMessage(conn.user.jid,'test miyuki!*', MessageType.text)
             console.log(
                 chalk.blue.bold('Locale kuruyorsanız node bot.js ile botu başlatabilirsiniz.')
             );
